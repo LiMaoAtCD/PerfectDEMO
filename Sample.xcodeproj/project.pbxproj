@@ -14,6 +14,7 @@
 		DA1A6AC21D0F944000FD4FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1A6AC01D0F944000FD4FB0 /* LaunchScreen.storyboard */; };
 		DA1A6ACD1D0F944000FD4FB0 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A6ACC1D0F944000FD4FB0 /* SampleTests.swift */; };
 		DA1A6AD81D0F944000FD4FB0 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A6AD71D0F944000FD4FB0 /* SampleUITests.swift */; };
+		DA1A6AE61D0FA58D00FD4FB0 /* ASFloatingHeadersFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1A6AE51D0FA58D00FD4FB0 /* ASFloatingHeadersFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA1A6AD31D0F944000FD4FB0 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1A6AD71D0F944000FD4FB0 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		DA1A6AD91D0F944000FD4FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1A6AE51D0FA58D00FD4FB0 /* ASFloatingHeadersFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASFloatingHeadersFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		DA1A6AB61D0F944000FD4FB0 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				DA1A6AE51D0FA58D00FD4FB0 /* ASFloatingHeadersFlowLayout.swift */,
 				DA1A6AB71D0F944000FD4FB0 /* AppDelegate.swift */,
 				DA1A6AB91D0F944000FD4FB0 /* ViewController.swift */,
 				DA1A6ABB1D0F944000FD4FB0 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1A6AE61D0FA58D00FD4FB0 /* ASFloatingHeadersFlowLayout.swift in Sources */,
 				DA1A6ABA1D0F944000FD4FB0 /* ViewController.swift in Sources */,
 				DA1A6AB81D0F944000FD4FB0 /* AppDelegate.swift in Sources */,
 			);
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
